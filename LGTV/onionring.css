@@ -1,15 +1,15 @@
 #LGTV-ring {
   margin: 0 auto;
-  padding: 15px;
+  padding: 15px; /* creates some space around the widget */
 }
 
 #LGTV-ring table {
-  background-color: #ffffff;
-  margin: 0 auto;
+  background-color: #ffffff; /* makes the background pure white */
+  margin: 0 auto; /* centers the widget */
 }
 
 #LGTV-ring table tr td {
-  padding: 15px; 
+  padding: 15px; /* creates some space between the links and text inside the widget */
 }
 
 #LGTV-ring .webring-prev {
