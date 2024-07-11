@@ -1,3 +1,7 @@
+// onionring.js is made up of four files - onionring-widget.js (this one!), onionring-index.js, onionring-variables.js and onionring.css
+// it's licensed under the cooperative non-violent license (CNPL) v4+ (https://thufie.lain.haus/NPL.html)
+// it was originally made by joey + mord of allium (è’œ) house, last updated 2020-11-24
+
 // === ONIONRING-WIDGET ===
 //this file contains the code which builds the widget shown on each page in the ring. ctrl+f 'EDIT THIS' if you're looking to change the actual html of the widget
 
@@ -26,7 +30,7 @@ if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
 <table>
   <tr>
-    <td>This site isn't part of the ${ringName} webring yet. You should talk to the manager to have your site added to the list!</td>
+    <td>This site isn't part of the ${ringName} yet. Go to crtstatic.neocities.org/dsring to get connected!</td>
   </tr>
 </table>
   `);
@@ -54,13 +58,10 @@ else {
   tag.insertAdjacentHTML('afterbegin', `
   <table>
     <tr>
-      <td class='webring-prev'><a href='${sites[previousIndex]}'>← previous</a></td>
-      <td class='webring-info'>This site is part of the ${ringName} webring</br>
-      <span class='webring-links'>
-        ${randomText}
-        ${indexText}
-        </span></td>
-      <td class='webring-next'><a href='${sites[nextIndex]}'>next →</a></td>
+      <td class='webring-prev'><a href='${sites[previousIndex]}'><-</a></td>
+      <td class='webring-info'>
+      <center><a href="https://crtstatic.neocities.org/dsring/"><img src="https://crtstatic.neocities.org/assets/dsring/title.png" alt="ds icon" width="60px"></a></center></span></td>
+      <td class='webring-next'><a href='${sites[nextIndex]}'>-></a></td>
     </tr>
   </table>
   `);
