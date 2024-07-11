@@ -1,18 +1,27 @@
+/* onionring.js is made up of four files - onionring-widget.js, onionring-index.js, onionring-variables.js and onionring.css (this one!)
+// it's licensed under the cooperative non-violent license (CNPL) v4+ (https://thufie.lain.haus/NPL.html)
+// it was originally made by joey + mord of allium (è’œ) house, last updated 2020-10-24 */
+
 /* === ONIONRING.CSS === */
-/* this file affects the style of the widget. remember to replace all instances of #LGTV-ring with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
+/* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
 
 #LGTV-ring {
   margin: 0 auto;
-  padding: 15px; /* creates some space around the widget */
+  padding: 5px; /* creates some space around the widget */
+  font-family: 'Nintendo-DS', sans-serif;
+}
+
+@font-face {
+  font-family:Nintendo-DS;
+  src: url("https://crtstatic.neocities.org/assets/fonts/Nintendo-DS.ttf");
 }
 
 #LGTV-ring table {
-  background-color: #ffffff; /* makes the background pure white */
   margin: 0 auto; /* centers the widget */
 }
 
 #LGTV-ring table tr td {
-  padding: 15px; /* creates some space between the links and text inside the widget */
+  padding: 1px; /* creates some space between the links and text inside the widget */
 }
 
 #LGTV-ring .webring-prev {

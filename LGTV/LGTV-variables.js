@@ -3,6 +3,7 @@
 
 //the full URLs of all the sites in the ring
 var sites = [
+'https://webring.yetiuard.wtf/',
 'https://yetiuard.wtf/',
 'https://marnie.vip/',
 'https://magicrat.neocities.org/'
