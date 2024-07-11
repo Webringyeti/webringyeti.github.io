@@ -26,10 +26,9 @@ else {
   previousIndex = (thisIndex-1 < 0) ? sites.length-1 : thisIndex-1;
   nextIndex = (thisIndex+1 >= sites.length) ? 0 : thisIndex+1;
   tag.insertAdjacentHTML('afterbegin', `
-  <p>Part of the <a href="https://webring.yetiuard.wtf">LGTV Webring</a>!</p>
-  <a href="${sites[previousIndex]}">Previous</a>
-  <a href="${indexPage}">Index</a>
-  <a href="${sites[nextIndex]}">Next</a>
+  <a href="${sites[previousIndex]}"><img src="https://webring.yetiuard.wtf/LGTVW_L.png"></a>
+  <a href="${indexPage}"><img src="https://webring.yetiuard.wtf/LGTVW_TV.png"></a>
+  <a href="${sites[nextIndex]}"><img src="https://">webring.yetiuard.wtf/LGTVW_R.png"</a>
   `);
 
 }
