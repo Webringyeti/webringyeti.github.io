@@ -26,7 +26,7 @@ if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
 <table>
   <tr>
-    <td>This site isn't part of the ${ringName} webring yet. Check the <a href='https://webring.yeti</td>
+    <td>This site isn't part of the ${ringName} webring yet. Check webring.yetiuard.wtf to get connected</td>
   </tr>
 </table>
   `);
@@ -52,17 +52,11 @@ else {
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
-  <table>
-    <tr>
-      <td class='webring-prev'><a href='${sites[previousIndex]}'>← previous</a></td>
-      <td class='webring-info'>This site is part of the ${ringName} webring</br>
-      <span class='webring-links'>
+  <p>Part of the <a href="https://webring.bucketfish.me">Bucket Webring</a>!</p>
+  <a href="${sites[previousIndex]}">Previous</a>
         ${randomText}
         ${indexText}
-        </span></td>
-      <td class='webring-next'><a href='${sites[nextIndex]}'>next →</a></td>
-    </tr>
-  </table>
+  <a href="${sites[nextIndex]}">Next</a>
   `);
 
 }
