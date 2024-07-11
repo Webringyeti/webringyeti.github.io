@@ -52,9 +52,8 @@ else {
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
-  <p>Part of the <a href="https://webring.bucketfish.me">Bucket Webring</a>!</p>
+  <p>Part of the <a href="https://webring.yetiuard.wtf">LGTV Webring</a>!</p>
   <a href="${sites[previousIndex]}">Previous</a>
-        ${randomText}
         ${indexText}
   <a href="${sites[nextIndex]}">Next</a>
   `);
