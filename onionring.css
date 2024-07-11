@@ -1,0 +1,29 @@
+#LGTV-ring {
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#LGTV-ring table {
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+#LGTV-ring table tr td {
+  padding: 15px; 
+}
+
+#LGTV-ring .webring-prev {
+  text-align:right;
+}
+
+#LGTV-ring .webring-info {
+   text-align:center;
+}
+
+#LGTV-ring .webring-next {
+  text-align:left;
+}
+
+#LGTV-ring .webring-links {
+  font-size:small;
+}
