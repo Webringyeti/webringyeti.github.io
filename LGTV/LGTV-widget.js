@@ -28,7 +28,7 @@ else {
   tag.insertAdjacentHTML('afterbegin', `
   <a href="${sites[previousIndex]}"><img src="https://webring.yetiuard.wtf/LGTVW_L.png"></a>
   <a href="${indexPage}"><img src="https://webring.yetiuard.wtf/LGTVW_TV.png"></a>
-  <a href="${sites[nextIndex]}"><img src="https://">webring.yetiuard.wtf/LGTVW_R.png"</a>
+  <a href="${sites[nextIndex]}"><img src="https://webring.yetiuard.wtf/LGTVW_R.png"></a>
   `);
 
 }
