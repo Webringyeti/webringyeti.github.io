@@ -25,20 +25,10 @@ if (thisIndex == null) {
 else {
   previousIndex = (thisIndex-1 < 0) ? sites.length-1 : thisIndex-1;
   nextIndex = (thisIndex+1 >= sites.length) ? 0 : thisIndex+1;
-
-  indexText = ""
-  if (useIndex) {
-    indexText = `<a href='${indexPage}'>index</a>  `;
-  }
-
-  randomText = ""
-  if (useRandom) {
-    randomText = `<a href='javascript:void(0)' onclick='randomSite()'>random</a>  `;
-  }
   tag.insertAdjacentHTML('afterbegin', `
   <p>Part of the <a href="https://webring.yetiuard.wtf">LGTV Webring</a>!</p>
   <a href="${sites[previousIndex]}">Previous</a>
-        ${indexText}
+  <a href="${indexPage}">Index</a>
   <a href="${sites[nextIndex]}">Next</a>
   `);
 
