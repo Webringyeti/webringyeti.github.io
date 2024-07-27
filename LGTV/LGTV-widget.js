@@ -17,7 +17,7 @@ if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
 <table>
   <tr>
-    <td>This site isn't part of the ${ringName} webring yet. Check webring.yetiuard.wtf to get connected</td>
+    <td>This site isn't part of the ${ringName} webring yet. Click <a href="https://webring.yetiuard.wtf/">here</a> to get connected</td>
   </tr>
 </table>
   `);
